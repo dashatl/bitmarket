@@ -10,6 +10,7 @@ header {
     margin-bottom: 20px;
     display: flex;
     background-color: black;
+    align-items: center;
 }
 
 .button {
@@ -33,6 +34,7 @@ nav {
     font-size: 24px;
     color: white;
     text-decoration: none;
+
 }
 
 h1 {
@@ -50,8 +52,9 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
     display: flex;
+    margin: 0px auto 0px auto;
+    max-width: 1100px;
 }
 
 article {
@@ -69,6 +72,7 @@ article {
     text-align: center;
     padding: 10px 75px 10px 75px;
     background-color: #8F04A8;
+    display: block;
 }
 
 footer {
@@ -93,4 +97,5 @@ footer p {
     text-align: center;
     padding: 10px 75px 10px 75px;
     background-color: #4DDE00;
+    display: block;
 }
